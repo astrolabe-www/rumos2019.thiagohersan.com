@@ -125,8 +125,19 @@ a {
       .proj-stage {
         padding: 16px;
 
+        .proj-stage-title-wrapper {
+          margin-bottom: 7px;
+
+          .proj-stage-title {
+            display: inline;
+            cursor: pointer;
+            border-bottom: 4px $TEXT-HIGHLIGHT-COLOR solid;
+          }
+        }
+
         .proj-stage-subtext {
           padding: 10px 38px;
+          text-align: justify;
         }
       }
     }
@@ -165,6 +176,7 @@ a {
 .stage-text {
   font: normal $SERIF-SIZE $FONT-SERIF;
   line-height: 1.333;
+  text-align: justify;
 }
 
 .social-footer {
