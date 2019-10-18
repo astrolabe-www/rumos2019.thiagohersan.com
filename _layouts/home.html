@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    {% include meta.html %}
+  </head>
+  <body>
+    <section class="header">
+      <div class="site-title">
+        {{ site.title }}
+      </div>
+
+      <div class="menu">
+        <div class="menu-option selected">PROJETO</div>
+        <div class="menu-option">ETAPAS</div>
+        <div class="menu-option">REFERENCIAS</div>
+      </div>
+    </section>
+
+    <div class="content-wrapper">
+      <section class="content" style="min-height: 300px;">
+
+        <div class="content-tab content-proj">
+          <div class="flex-wrapper">
+            <div class="proj-diagram-wrapper">
+              <div class="proj-diagram"></div>
+            </div>
+
+            <div class="proj-content">
+
+              <div class="proj-stage">
+                <div class="proj-stage-title stage-title">CAPTAR</div>
+                <div class="proj-stage-text stage-text">
+                  Criação e experimentação com antenas socionaturais. Essas são antenas construídas a partir de materiais naturais (plantas, cristais) e processados (metais, resinas), seus emaranhamentos e significações contemporâneas.
+                </div>
+              </div>
+
+              <div class="proj-stage">
+                <div class="proj-stage-title stage-title">PROCESSAR</div>
+                <div class="proj-stage-text stage-text">
+                  Construção de sistemas para filtrar, organizar e tentar fazer sentido de dados provindo de múltiplas antenas e fatias do espectro eletromagnético. Técnicas e algoritmos de Machine Learning podem ser usadas para explorar padrões em tempo real e longo prazo.
+                </div>
+              </div>
+
+              <div class="proj-stage">
+                <div class="proj-stage-title stage-title">ARMAZENAR</div>
+                <div class="proj-stage-text stage-text">
+                  Estratégias para o armazenamento e tagueamento de dados, e a programação de uma plataforma online com uma API para facilitar o acesso a esses dados.
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="content-tab content-etap">
+          <div class="flex-wrapper">
+            <div class="etap-diagram-wrapper">
+              <div class="etap-diagram"></div>
+            </div>
+
+            <div class="etap-content">
+
+              <div class="etap-stage">
+                <div class="etap-stage-title stage-title">ETAPA 1</div>
+                <div class="etap-stage-text stage-text">
+                  Desenvolvimento das tecnologias e metodologias descritas anteriormente. Experimentação com antenas feitas de metais, minerais, cristais, plantas e outros corpos. Experimentação com sistemas de visualização de dados e algoritmos de Machine Learning.
+                </div>
+              </div>
+
+              <div class="etap-stage">
+                <div class="etap-stage-title stage-title">ETAPA 2</div>
+                <div class="etap-stage-text stage-text">
+                  Captação de sinais em áreas rurais e urbanas usando as antenas e sistemas criados durante a primeira etapa do projeto. Também serão usadas antenas criadas durante oficinas educacionais ministrada nos locais de captação. Locais na cidade de São Paulo serão escolhidos baseado em fatores socioeconômicos para incluir os bairros mais ricos e mais pobres da cidade. Áreas rurais serão visitadas para ter melhor acesso a sinais provenientes de corpos espaciais como satélites e estrelas.
+                </div>
+              </div>
+
+              <div class="etap-stage">
+                <div class="etap-stage-title stage-title">ETAPA 3</div>
+                <div class="etap-stage-text stage-text">
+                  Criação de documentos pertinentes à cartografia explorada nas últimas etapas. Essa etapa prevê a criação de materiais impressos, expositivos e digitais para divulgar e compartilhar as visualizações, metodologias e dados do projeto. Isso acontecerá através de uma publicação impressa, participação em exposições e uma plataforma online.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-tab content-refe">REFS</div>
+      </section>
+
+      <section class="social-footer">
+        {% include social-icons.html %}
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+$FONT-SANS: 'liberation-sans', 'Arial', sans-serif;
+$FONT-SERIF: 'liberation-serif', 'Times';
+
+$TITLE-SIZE: 28px;
+$TEXT-SIZE: 14px;
+$LINK-SIZE: 15px;
+$ICON-SIZE: 24px;
+
+$BACKGROUND-COLOR: #fff;
+$TEXT-COLOR: #222;
+
+$LINK-COLOR: $TEXT-COLOR;
+$LINK-COLOR-VISITED: $LINK-COLOR;
+$LINK-COLOR-HOVER: $LINK-COLOR;
+
+$DESKTOP-MIN-WIDTH: 720px;
+
+$TRANSITION-PERIOD: 0.1s;
+
+@mixin media-query($canvas) {
+  @if $canvas == DESKTOP {
+   @media only screen and (min-width: $DESKTOP-MIN-WIDTH) { @content; }
+  }
+}

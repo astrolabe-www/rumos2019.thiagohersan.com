@@ -1,0 +1,42 @@
+# Site
+title: 'outras novas naturezas'
+subtitle: ''
+
+# URL
+url: https://rumos2019.thiagohersan.com
+baseurl: ''
+include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+
+# Build settings
+markdown: kramdown
+port: 9966
+future: false
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "home"
+
+# Data
+social:
+  home: "https://thiagohersan.com"
+  github: "https://github.com/thiagohersan"
+  vimeo: "https://vimeo.com/thiagohersan"
+  instagram: "https://www.instagram.com/thiagohersan"
+  twitter: ""
+  youtube: ""
+  facebook: ""
+  soundcloud: ""
+  tumblr: ""
+  pinterest: ""
+  envelope-o: ""

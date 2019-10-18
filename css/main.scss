@@ -1,0 +1,167 @@
+---
+layout: none
+---
+
+@import 'constants';
+@import url('fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: $DESKTOP-MIN-WIDTH;
+  background-color: $BACKGROUND-COLOR;
+  border: 1px $TEXT-COLOR solid;
+
+  font: bold $TEXT-SIZE $FONT-SANS;
+  color: $TEXT-COLOR;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: color $TRANSITION-PERIOD linear;
+  font-size: inherit;
+
+  color: $LINK-COLOR;
+
+  &:visited {
+    color: $LINK-COLOR-VISITED;
+  }
+
+  &:hover {
+    color: $LINK-COLOR-HOVER;
+  }
+}
+
+.header {
+  .site-title {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    font-size: $TITLE-SIZE;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+
+    .menu-option {
+      padding: 8px 16px;
+      border: 1px $TEXT-COLOR solid;
+      width: 33.3333%;
+      text-align: center;
+      cursor: pointer;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+
+      &.selected {
+        border-bottom: none;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    border: 1px $TEXT-COLOR solid;
+    border-top: none;
+
+    .content-tab {
+      opacity: 0;
+      height: auto;
+      transition: opacity $TRANSITION-PERIOD linear, height 5*$TRANSITION-PERIOD linear;
+    }
+  }
+}
+
+.content-proj {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .proj-diagram-wrapper {
+      width: 50%;
+      max-width: 200px;
+
+      .proj-diagram {
+        padding-bottom: 350%;
+        background-image: url({{ site.baseurl }}/media/images/2019-rumos-hersan.png);
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .proj-content{
+      width: 80%;
+      .proj-stage {
+        padding: 16px;
+      }
+    }
+  }
+}
+
+.content-etap {
+  .flex-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .etap-diagram-wrapper {
+      width: 50%;
+      max-width: 100px;
+      display: flex;
+      justify-content: flex-end;
+
+      .etap-diagram {
+        padding-bottom: 350%;
+        width: 16px;
+        background-color: $TEXT-COLOR;
+      }
+    }
+
+    .etap-stage {
+      padding: 16px;
+    }
+  }
+}
+
+.stage-title {
+  font-weight: bold;
+}
+
+.stage-text {
+  // font-family: $FONT-SERIF;
+  font-weight: normal;
+}
+
+.social-footer {
+  padding: 8px;
+  font-size: $ICON-SIZE;
+  text-align: center;
+}
