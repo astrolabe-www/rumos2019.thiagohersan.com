@@ -67,4 +67,9 @@ window.onload = function() {
   for(let i = 0; i < projStageTitles.length; i++) {
     projStageTitles[i].onclick = selectThisStage;
   }
+
+  projDiagramDiv.style['background-image'] = 'url(../media/images/2019-rumos-hersan_captar.png)';
+  projDiagramDiv.style['background-image'] = 'url(../media/images/2019-rumos-hersan_processar.png)';
+  projDiagramDiv.style['background-image'] = 'url(../media/images/2019-rumos-hersan_armazenar.png)';
+  projDiagramDiv.style['background-image'] = 'url(../media/images/2019-rumos-hersan.png)';
 }
