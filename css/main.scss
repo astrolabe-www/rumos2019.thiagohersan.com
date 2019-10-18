@@ -95,7 +95,7 @@ a {
 
     .content-tab {
       opacity: 0;
-      height: auto;
+      overflow: hidden;
       transition: opacity $TRANSITION-PERIOD linear, height 5*$TRANSITION-PERIOD linear;
     }
   }
