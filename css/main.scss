@@ -141,7 +141,7 @@ a {
       .etap-diagram {
         padding-bottom: 350%;
         width: 16px;
-        background-color: $TEXT-COLOR;
+        background-color: $TEXT-HIGHLIGHT-COLOR;
       }
     }
 
@@ -153,11 +153,12 @@ a {
 
 .stage-title {
   font-weight: bold;
+  color: $TEXT-HIGHLIGHT-COLOR;
 }
 
 .stage-text {
-  // font-family: $FONT-SERIF;
-  font-weight: normal;
+  font: normal $SERIF-SIZE $FONT-SERIF;
+  line-height: 1.333;
 }
 
 .social-footer {
