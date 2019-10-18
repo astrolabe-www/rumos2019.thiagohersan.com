@@ -135,6 +135,13 @@ a {
           }
         }
 
+        .proj-stage-text {
+          overflow: hidden;
+          height: 0;
+          opacity: 0;
+          transition: opacity $TRANSITION-PERIOD linear, height 5*$TRANSITION-PERIOD linear;
+        }
+
         .proj-stage-subtext {
           padding: 10px 38px;
           text-align: justify;

@@ -1,7 +1,8 @@
 let menuOptions;
 let contentTabs;
-let projStageTitles;
 let projDiagramDiv;
+let projStageTitles;
+let projStageTexts
 
 function clearMenuSelection() {
   for(let i = 0; i < menuOptions.length; i++) {
@@ -29,17 +30,34 @@ function selectThisTab() {
   }, 900);
 }
 
+function clearProjStageSelection() {
+  for(let i = 0; i < projStageTexts.length; i++) {
+    projStageTexts[i].style.height = '0';
+    projStageTexts[i].style.opacity = '0';
+  }
+}
+
 function selectThisStage() {
+  clearProjStageSelection();
+
   const stageName = this.innerHTML.toLowerCase();
   const imgFilename = `2019-rumos-hersan_${stageName}.png`;
   projDiagramDiv.style['background-image'] = `url(../media/images/${imgFilename})`;
+
+  const stageTag = this.innerHTML.substring(0, 4).toLowerCase();
+  const stageDiv = document.getElementsByClassName('proj-stage-text-' + stageTag)[0];
+
+  stageDiv.style.opacity = '1';
+  stageDiv.style.height = stageDiv.scrollHeight + 'px';
 }
 
 window.onload = function() {
   menuOptions = document.getElementsByClassName('menu-option');
   contentTabs = document.getElementsByClassName('content-tab');
-  projStageTitles = document.getElementsByClassName('proj-stage-title');
+
   projDiagramDiv = document.getElementsByClassName('proj-diagram')[0];
+  projStageTitles = document.getElementsByClassName('proj-stage-title');
+  projStageTexts = document.getElementsByClassName('proj-stage-text');
 
   for(let i = 0; i < menuOptions.length; i++) {
     menuOptions[i].onclick = selectThisTab;
