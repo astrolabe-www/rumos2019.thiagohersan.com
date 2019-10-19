@@ -192,6 +192,17 @@ a {
   }
 }
 
+.content-refe {
+  .refe-content {
+    .refe-stage {
+      padding: 16px;
+    }
+    .refe-stage + .refe-stage {
+      padding: 8px 16px;
+    }
+  }
+}
+
 .stage-title {
   font-weight: bold;
   color: $TEXT-HIGHLIGHT-COLOR;
