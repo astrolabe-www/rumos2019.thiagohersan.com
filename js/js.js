@@ -49,6 +49,11 @@ function selectThisStage() {
 
   stageDiv.style.opacity = '1';
   stageDiv.style.height = stageDiv.scrollHeight + 'px';
+
+  setTimeout(function() {
+    const tabDiv = document.getElementsByClassName('content-proj')[0];
+    tabDiv.style.height = tabDiv.scrollHeight + 'px';
+  }, 600);
 }
 
 window.onload = function() {
