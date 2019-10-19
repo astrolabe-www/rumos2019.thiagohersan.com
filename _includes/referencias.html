@@ -13,32 +13,21 @@
           <br><br>
           Vejo a pesquisa como uma possibilidade para o desenvolvimento de objetos e rituais para um novo tipo de astronomia que leva em conta satélites naturais e artificiais, e seus efeitos sobre corpos humanos, não-humanos e tecnológicos. O horizonte utópico desta pesquisa é uma ciência que trata a natureza não como recurso passivo, mas como parceira intersubjetiva no desenvolvimento da cultura.
           <br><br>
-          Além das intra-ações de Karen Barad e os hiper-objetos de Timothy Morton esse projeto encontra ressonância nos trabalhos de Bruno Latour sobre redes e sistemas híbridos, Donna Haraway e seus saberes localizados, algumas das Cidades Invisíveis de Italo Calvino, na Geologia de Mídias de Shannon Mattern, no materialismo de Judith Butler, na trindade ontológica Humano-Natureza-Tecnologia de Gilbert Simondon, no Xenofeminismo de Laboria Cuboniks, nas ficções-científicas de Octavia Butler, Joanna Russ e Monique Wittig, e nos questionamentos onto-antropológicos de Viveiros de Castro, Philippe Descola e Marshall Sahlins.
+          Além das intra-ações de <a href="https://en.wikipedia.org/wiki/Karen_Barad" target="_blank">Karen Barad</a> e os hiper-objetos de <a href="https://en.wikipedia.org/wiki/Timothy_Morton" target="_blank">Timothy Morton</a> esse projeto encontra ressonância nos trabalhos de <a href="https://pt.wikipedia.org/wiki/Bruno_Latour" target="_blank">Bruno Latour</a> sobre redes e sistemas híbridos, <a href="https://pt.wikipedia.org/wiki/Donna_Haraway" target="_blank">Donna Haraway</a> e seus saberes localizados, algumas das Cidades Invisíveis de <a href="https://pt.wikipedia.org/wiki/Italo_Calvino">Italo Calvino</a>, na Geologia de Mídias de <a href="https://monoskop.org/Shannon_Mattern">Shannon Mattern</a>, no materialismo de <a href="https://pt.wikipedia.org/wiki/Judith_Butler" target="_blank">Judith Butler</a>, na trindade ontológica Humano-Natureza-Tecnologia de <a href="https://pt.wikipedia.org/wiki/Gilbert_Simondon" target="_blank">Gilbert Simondon</a>, no Xenofeminismo de <a href="https://monoskop.org/Laboria_Cuboniks" target="_blank">Laboria Cuboniks</a>, nas ficções-científicas de <a href="https://pt.wikipedia.org/wiki/Octavia_Butler" target="_blank">Octavia Butler</a>, <a href="https://pt.wikipedia.org/wiki/Joanna_Russ" target="_blank">Joanna Russ</a> e <a href="https://pt.wikipedia.org/wiki/Monique_Wittig" target="_blank">Monique Wittig</a>, e nos questionamentos onto-antropológicos de <a href="https://pt.wikipedia.org/wiki/Eduardo_Viveiros_de_Castro" target="_blank">Viveiros de Castro</a>, <a href="https://pt.wikipedia.org/wiki/Philippe_Descola" target="_blank">Philippe Descola</a> e <a href="https://pt.wikipedia.org/wiki/Marshall_Sahlins" target="_blank">Marshall Sahlins</a>.
           <br><br>
           Uma nova ciência é imprescindível se esperamos ter qualquer esperança em lidar com iminentes problemas ambientais, sociais e econômicos que transitam em discursos e redes de conhecimento cada vez mais híbridas e expansivas.
         </div>
       </div>
 
-      <div class="refe-stage">
-        <div class="refe-stage-title stage-title">REF 1</div>
-        <div class="refe-stage-text stage-text">
-          o_0
+      {% assign sortedRefs = site.data.referencias | sort:'title' %}
+      {% for r in sortedRefs %}
+        <div class="refe-stage">
+          <div class="refe-stage-title stage-title">
+            <a href="{{ r.link }}" target="_blank">{{ r.title }}</a>
+          </div>
+          <div class="refe-stage-text stage-text">{{ r.text }}</div>
         </div>
-      </div>
-
-      <div class="refe-stage">
-        <div class="refe-stage-title stage-title">REF 2</div>
-        <div class="refe-stage-text stage-text">
-          o_o
-        </div>
-      </div>
-
-      <div class="refe-stage">
-        <div class="refe-stage-title stage-title">REF 3</div>
-        <div class="refe-stage-text stage-text">
-          0_0
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
   </div>
