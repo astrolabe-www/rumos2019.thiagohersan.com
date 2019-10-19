@@ -60,10 +60,10 @@ a {
   height: 0;
   visibility: hidden;
   overflow: hidden;
-  background: url({{ site.baseurl }}/media/images/2019-rumos-hersan_processar.png),
-              url({{ site.baseurl }}/media/images/2019-rumos-hersan_armazenar.png),
-              url({{ site.baseurl }}/media/images/2019-rumos-hersan_captar.png),
-              url({{ site.baseurl }}/media/images/2019-rumos-hersan.png);
+  background: url({{ site.baseurl }}/media/images/project-diagram/diagram_processar.png),
+              url({{ site.baseurl }}/media/images/project-diagram/diagram_armazenar.png),
+              url({{ site.baseurl }}/media/images/project-diagram/diagram_captar.png),
+              url({{ site.baseurl }}/media/images/project-diagram/diagram.png);
 }
 
 .header {
@@ -124,7 +124,7 @@ a {
       .proj-diagram {
         padding-bottom: 350%;
         height: 100%;
-        background-image: url({{ site.baseurl }}/media/images/2019-rumos-hersan.png);
+        background-image: url({{ site.baseurl }}/media/images/project-diagram/diagram.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;

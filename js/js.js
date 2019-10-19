@@ -41,8 +41,8 @@ function selectThisStage() {
   clearProjStageSelection();
 
   const stageName = this.innerHTML.toLowerCase();
-  const imgFilename = `2019-rumos-hersan_${stageName}.png`;
-  projDiagramDiv.style['background-image'] = `url(../media/images/${imgFilename})`;
+  const imgFilename = `diagram_${stageName}.png`;
+  projDiagramDiv.style['background-image'] = `url(../media/images/project-diagram/${imgFilename})`;
 
   const stageTag = this.innerHTML.substring(0, 4).toLowerCase();
   const stageDiv = document.getElementsByClassName('proj-stage-text-' + stageTag)[0];
