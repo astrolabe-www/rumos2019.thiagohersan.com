@@ -154,10 +154,11 @@ a {
         }
 
         .proj-stage-subtext {
-          padding: 10px 38px;
+          padding: 10px;
           text-align: left;
 
           @include media-query(DESKTOP) {
+            padding: 10px 38px;
             text-align: justify;
           }
         }
