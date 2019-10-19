@@ -55,6 +55,17 @@ a {
   }
 }
 
+.preload-project-diagram-images {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  background: url({{ site.baseurl }}/media/images/2019-rumos-hersan_processar.png),
+              url({{ site.baseurl }}/media/images/2019-rumos-hersan_armazenar.png),
+              url({{ site.baseurl }}/media/images/2019-rumos-hersan_captar.png),
+              url({{ site.baseurl }}/media/images/2019-rumos-hersan.png);
+}
+
 .header {
   .site-title {
     width: 100%;
