@@ -155,7 +155,11 @@ a {
 
         .proj-stage-subtext {
           padding: 10px 38px;
-          text-align: justify;
+          text-align: left;
+
+          @include media-query(DESKTOP) {
+            text-align: justify;
+          }
         }
       }
     }
@@ -194,7 +198,11 @@ a {
 .stage-text {
   font: normal $SERIF-SIZE $FONT-SERIF;
   line-height: 1.333;
-  text-align: justify;
+  text-align: left;
+
+  @include media-query(DESKTOP) {
+    text-align: justify;
+  }
 }
 
 .social-footer {
