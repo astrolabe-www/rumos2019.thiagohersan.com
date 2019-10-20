@@ -227,6 +227,30 @@ a {
         }
       }
     }
+
+    .refe-stage-image-text {
+      display: flex;
+      flex-direction: row;
+      padding-top: 8px;
+
+      .refe-stage-image {
+        width: 20%;
+        padding-bottom: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 3px;
+      }
+
+      .refe-stage-text {
+        padding: 0 16px;
+
+        .refe-stage-text-link {
+          vertical-align: super;
+          font-size: 0.85 * $TEXT-SIZE;
+        }
+      }
+    }
   }
 }
 
@@ -252,6 +276,7 @@ a {
   a {
     border-bottom: none;
     font-size: $ICON-SIZE;
+    text-decoration: none;
 
     color: $TEXT-HIGHLIGHT-COLOR;
     &:visited {

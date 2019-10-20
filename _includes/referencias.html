@@ -25,7 +25,16 @@
           <div class="refe-stage-title stage-title">
             <a href="{{ r.link }}" target="_blank">{{ r.title }}</a>
           </div>
-          <div class="refe-stage-text stage-text">{{ r.text }}</div>
+
+          <div class="refe-stage-image-text">
+            {% if r.image != '' %}
+              <div class="refe-stage-image" style="background-image: url({{ site.baseurl }}/{{ r.image }})"></div>
+            {% endif %}
+            <div class="refe-stage-text stage-text">
+              {{ r.text }}
+              <a class="refe-stage-text-link" href="{{ r.link }}" target="_blank">[1]</a>
+            </div>
+          </div>
         </div>
       {% endfor %}
 
