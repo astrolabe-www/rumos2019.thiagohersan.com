@@ -44,8 +44,8 @@ a {
   transition: color $TRANSITION-PERIOD linear;
   font-size: $LINK-SIZE;
   color: $LINK-COLOR;
-  border-bottom: 2px $LINK-COLOR solid;
-  font-weight: bold;
+  font-weight: normal;
+  text-decoration: underline;
 
   &:visited {
     color: $LINK-COLOR-VISITED;
@@ -53,6 +53,8 @@ a {
 
   &:hover {
     color: $LINK-COLOR-HOVER;
+    color: $TEXT-COLOR;
+    text-decoration: line-through;
   }
 }
 
@@ -88,10 +90,18 @@ a {
       cursor: pointer;
       border-top-right-radius: 2px;
       border-top-left-radius: 2px;
+      text-decoration: none;
 
       &.selected {
         border-bottom: none;
         cursor: default;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:hover {
+        text-decoration: line-through;
       }
     }
   }
@@ -210,6 +220,11 @@ a {
       a {
         font-size: $TEXT-SIZE;
         border-bottom: 4px $TEXT-HIGHLIGHT-COLOR solid;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+          color: inherit;
+        }
       }
     }
   }
