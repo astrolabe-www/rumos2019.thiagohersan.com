@@ -23,7 +23,7 @@
       {% for r in sortedRefs %}
         <div class="refe-stage">
           <div class="refe-stage-title stage-title">
-            <a href="{{ r.link }}" target="_blank">{{ r.title }}</a>
+            {{ r.title }}
           </div>
 
           <div class="refe-stage-image-text">
@@ -32,7 +32,9 @@
             {% endif %}
             <div class="refe-stage-text stage-text">
               {{ r.text }}
-              <a class="refe-stage-text-link" href="{{ r.link }}" target="_blank">[1]</a>
+              {% for link in r.links %}
+                <a class="refe-stage-text-link" href="{{ link }}" target="_blank">[{{ forloop.index }}]</a> 
+              {% endfor %}
             </div>
           </div>
         </div>
