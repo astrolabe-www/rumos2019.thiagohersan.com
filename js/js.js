@@ -76,7 +76,5 @@ window.onload = function() {
   for(let i = 0; i < projStageTitles.length; i++) {
     projStageTitles[i].onclick = selectThisStage;
   }
-  setTimeout(function() {
-    projStageTitles[0].click();
-  }, 1000);
+  projStageTitles[0].click();
 }
