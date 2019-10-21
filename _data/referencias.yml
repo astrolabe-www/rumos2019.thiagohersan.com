@@ -3,6 +3,7 @@
   text: '---'
   links:
     - 'https://blog.stonehenge-stone-circle.co.uk/2017/01/04/stonehenge-eclipse-predictor/'
+    - 'media/docs/stonehenge.pdf'
 
 - title: Astrolabe
   image: 'media/images/references/astro_02.jpg'
@@ -76,23 +77,23 @@
   links:
     - 'http://www.bibliotecadocomum.org/files/original/91e2f1d4a62538c70e4f1f78598dcca2.pdf'
 
-- title: Perínzia
-  image: 'media/images/references/invisible_cities.jpg'
-  text: '---'
-  links:
-    - 'media/images/references/Perinzia_txt.jpg'
-
 - title: Andria
   image: 'media/images/references/invisible_cities.jpg'
   text: '---'
   links:
-    - 'media/images/references/Andria_txt.jpg'
+    - 'media/docs/Calvino_Andria.pdf'
 
 - title: Eudóxia
   image: 'media/images/references/invisible_cities.jpg'
   text: '---'
   links:
-    - 'media/images/references/Eudoxia_txt.jpg'
+    - 'media/docs/Calvino_Eudoxia.pdf'
+
+- title: Perínzia
+  image: 'media/images/references/invisible_cities.jpg'
+  text: '---'
+  links:
+    - 'media/docs/Calvino_Perinzia.pdf'
 
 - title: Performatividade
   image: ''
