@@ -1,13 +1,13 @@
 - title: Stonehenge
   image: 'media/images/references/stonehenge.jpg'
-  text: '---'
+  text: 'Estrutura formada por círculos de pedras, construída entre mais ou menos 3000 e 2000 a.C. na Inglaterra. Apesar de muita especulação sobre sua verdadeira funcionalidade, o posicionamento de suas pedras correspondem precisamente a eventos celestes. Além de sinalizar datas específicas de alinhamentos celestes (solstícios e equinócios), existe evidência que a estrutura também poderia ter sido usada para prever eclipses.'
   links:
     - 'https://blog.stonehenge-stone-circle.co.uk/2017/01/04/stonehenge-eclipse-predictor/'
     - 'media/docs/stonehenge.pdf'
 
 - title: Astrolabe
   image: 'media/images/references/astro_02.jpg'
-  text: '---'
+  text: 'Antigo instrumento usado pelos astrônomos islâmicos desde 550 d.C. para medir tempo, localizações e distâncias. Fora do mundo islâmico, este dispositivo de medição teve seu momento na história européia: foi imprescindível na divulgação e ensino da geometria islâmica durante a era do renascimento, e depois, durante a era dos impérios, foi fundamental nas expedições marítimas de "descobertas".'
   links:
     - 'https://www.youtube.com/watch?v=N8oWGwcdFmA'
 
@@ -107,14 +107,27 @@
   links:
     - 'https://pt.wikipedia.org/wiki/Satélite_geoestacionário'
 
-- title: Atribuição de Faixas de Frequências
+- title: Atribuição de Frequências
   image: 'media/images/references/faixas-frequencias.jpg'
   text: '---'
   links:
     - 'media/docs/FAIXAS-DE-FREQUENCIAS-Anatel-2018.pdf'
+    - 'https://espectro.org.br/pt-br/content/plano-de-atribuição-de-faixas-de-frequência-no-brasil-2018'
+    - 'https://www.teleco.com.br/areasc.asp'
 
 - title: Yagi-Uda
   image: 'media/images/references/yagi.jpg'
   text: '---'
   links:
     - 'https://www.electronics-notes.com/articles/antennas-propagation/yagi-uda-antenna-aerial/basics-overview.php'
+    - 'http://www.k7mem.com/Ant_Yagi_VHF.html'
+    - 'http://bcbj.org/antennae/lte_yagi_diy.htm'
+    - 'https://www.changpuak.ch/electronics/yagi_uda_antenna_DL6WU.php'
+
+- title: Linhas de Ley
+  image: 'media/images/references/ley-lines.jpg'
+  text: '---'
+  links:
+    - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
+    - 'http://www.arquivoxbr.com/2017/01/as-linhas-ley/'
+    - 'https://ahduvido.com.br/os-misteriosos-portais-que-ligam-a-terra-e-o-sol-e-as-linhas-de-ley/'

@@ -239,20 +239,40 @@ a {
     }
 
     .refe-stage-image-text {
+      width: 100%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+
+      @include media-query(DESKTOP) {
+        flex-direction: row;
+      }
 
       .refe-stage-image {
-        width: 20%;
-        padding-bottom: 20%;
+        width: 100%;
+        height: 1%;
+        padding-bottom: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: center top;
         border-radius: 3px;
+
+        @include media-query(DESKTOP) {
+          width: 20%;
+          padding-bottom: 20%;
+          background-position: left center;
+        }
       }
 
       .refe-stage-text {
-        padding: 0 16px;
+        width: 100%;
+        padding-top: 16px;
+        padding-left: 0;
+
+        @include media-query(DESKTOP) {
+          width: 80%;
+          padding-top: 0;
+          padding-left: 16px;
+        }
 
         .refe-stage-text-link {
           vertical-align: super;
