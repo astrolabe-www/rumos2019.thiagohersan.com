@@ -38,17 +38,21 @@ function clearProjStageSelection() {
 }
 
 function selectThisStage() {
-  clearProjStageSelection();
-
-  const stageName = this.innerHTML.toLowerCase();
-  const imgFilename = `diagram_${stageName}.png`;
-  projDiagramDiv.style['background-image'] = `url(../media/images/project-diagram/${imgFilename})`;
-
-  const stageTag = this.innerHTML.substring(0, 4).toLowerCase();
+  const stageName = this.innerHTML.toLowerCase() || 'captar';
+  const stageTag = stageName.substring(0, 4);
   const stageDiv = document.getElementsByClassName('proj-stage-text-' + stageTag)[0];
 
-  stageDiv.style.opacity = '1';
-  stageDiv.style.height = stageDiv.scrollHeight + 'px';
+  const justCloseOpenedDiv = (stageDiv.style.opacity === '1');
+
+  const imgFilename = `diagram${(justCloseOpenedDiv) ? '' : '_'+stageName}.png`;
+  projDiagramDiv.style['background-image'] = `url(../media/images/project-diagram/${imgFilename})`;
+
+  clearProjStageSelection();
+
+  if (!justCloseOpenedDiv) {
+    stageDiv.style.opacity = '1';
+    stageDiv.style.height = stageDiv.scrollHeight + 'px';
+  }
 
   setTimeout(function() {
     const tabDiv = document.getElementsByClassName('content-proj')[0];
@@ -72,4 +76,7 @@ window.onload = function() {
   for(let i = 0; i < projStageTitles.length; i++) {
     projStageTitles[i].onclick = selectThisStage;
   }
+  setTimeout(function() {
+    projStageTitles[0].click();
+  }, 1000);
 }
