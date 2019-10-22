@@ -5,7 +5,6 @@
     </div>
 
     <div class="refe-content">
-
       <div class="refe-stage">
         <div class="refe-stage-title stage-title"></div>
         <div class="refe-stage-text stage-text">
@@ -21,7 +20,7 @@
 
       {% assign sortedRefs = site.data.referencias | sort:'title' %}
       {% for r in sortedRefs %}
-        <div class="refe-stage">
+        <div class="refe-stage" id="{{ r.title | url_encode }}">
           <div class="refe-stage-title stage-title">
             {{ r.title }}
           </div>
