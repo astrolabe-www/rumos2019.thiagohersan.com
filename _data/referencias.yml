@@ -19,7 +19,7 @@
 
 - title: Hiper-objeto
   image: 'media/images/references/hybrid.jpg'
-  text: '---'
+  text: 'Conceito usado para analisar a materialidade e complexidade de atuais sistemas "naturais" (aquecimento global, campos petrolíferos do pré-sal, ...) e sistemas "construídos" (internet como vigilância, Machine Learning, ...), que não podem ser compreendidos a partir de uma única ontologia (social, econômica, tecnológica, cultural, filosófica, etc...).'
   links:
     - 'https://www.upress.umn.edu/book-division/books/hyperobjects'
 
@@ -30,18 +30,21 @@
     - 'https://www.laboriacuboniks.net'
 
 - title: Saberes Localizados
+  hide: true
   image: ''
   text: '---'
   links:
     - 'https://monoskop.org/images/6/6e/Haraway_Donna_1988_Situated_Knowledges_The_Science_Question_in_Feminism_and_the_Privilege_of_Partial_Perspective.pdf'
 
 - title: Sistemas Híbridos
+  hide: true
   image: 'media/images/references/hybrid.jpg'
   text: '---'
   links:
     - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
 
 - title: Deep Media
+  hide: true
   image: ''
   text: '---'
   links:
@@ -60,12 +63,14 @@
     - 'http://ea.fflch.usp.br/conceito/perspectivismo-ameríndio'
 
 - title: Individuação
+  hide: true
   image: ''
   text: '---'
   links:
     - 'http://www.shaviro.com/Blog/?p=471'
 
 - title: Técnica
+  hide: true
   image: ''
   text: '---'
   links:
@@ -79,23 +84,24 @@
 
 - title: Andria
   image: 'media/images/references/invisible_cities.jpg'
-  text: '---'
+  text: 'Uma das cidades invisíveis de Italo Calvino. Essa cidade foi planeja e construída para ser um reflexo exato do céu e seus corpos celestes. Mudanças em Ândria correspondem à mudanças nos cosmos, e vice-versa. Um convite a refletir a extensão da influência e força humana no universo, e vice-versa.'
   links:
     - 'media/docs/Calvino_Andria.pdf'
 
 - title: Eudóxia
   image: 'media/images/references/invisible_cities.jpg'
-  text: '---'
+  text: 'Outra das cidades invisíveis. Eudóxia tem um mapa no formato de um tapete. Não se sabe qual, mas um dos dois objetos, cidade ou tapete, segue a forma perfeita do universo, enquanto o outro é apenas uma aproximação. O conto aponta algumas conexões e emaranhamentos relevantes entre cidade, mapa, universo e formas de representação.'
   links:
     - 'media/docs/Calvino_Eudoxia.pdf'
 
 - title: Perínzia
   image: 'media/images/references/invisible_cities.jpg'
-  text: '---'
+  text: 'Outra cidade invisível de Italo Calvino. Perínzia foi planejada por astrônomos que seguiram o posicionamento das estrelas para ditar as construções terrestres de edifícios, bairros e muralhas. Alinhada a eclipses e outros acontecimentos celestes, a cidade espelharia a harmonia e a razão da natureza, mas após algumas gerações a cidade se encontrada povoada por "monstros". Os monstros de Latour e os <a href="#Manifesto+Ciborgue">ciborgues</a> de Haraway também são resultados de mesclas entre ciência, política, natureza e cultura.'
   links:
     - 'media/docs/Calvino_Perinzia.pdf'
 
 - title: Performatividade
+  hide: true
   image: ''
   text: '---'
   links:
@@ -103,13 +109,15 @@
 
 - title: Cinturão de Clarke
   image: 'media/images/references/clarke.jpg'
-  text: '---'
+  text: 'Nome dado ao grupo de satélites geoestacionários que orbitam a Terra sobre a linha do Ecuador à uma distância de mais ou menos 36.000 km da superfície. A essa altitude os satélites giram em torno da Terra na mesma velocidade em que a Terra gira em torno de si mesma, fazendo com que cada um deles apareça parado do ponto de vista terrestre. Esses satélites geralmente são utilizados para comunicações e observação de regiões específicas.'
   links:
     - 'https://pt.wikipedia.org/wiki/Satélite_geoestacionário'
+    - 'https://en.wikipedia.org/wiki/List_of_satellites_in_geosynchronous_orbit'
+    - 'https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y'
 
 - title: Atribuição de Frequências
   image: 'media/images/references/faixas-frequencias.jpg'
-  text: '---'
+  text: 'Processo pelo qual agências reguladoras dividem o espectro electromagnético e distribuem as frequências entre 3 kHz e 275 GHz a serviços específicos. No Brasil a <a href="https://www.anatel.gov.br/" target="_blank">ANATEL</a> é o orgão responsável por autorizar, administrar, regulamentar e distribuir essas faixas de frequências para uso comercial, público, militar e educacional. A Anatel define o espectro de radiofreqüências como um bem público, mas de fruição limitada.'
   links:
     - 'media/docs/FAIXAS-DE-FREQUENCIAS-Anatel-2018.pdf'
     - 'https://espectro.org.br/pt-br/content/plano-de-atribuição-de-faixas-de-frequência-no-brasil-2018'

@@ -20,23 +20,25 @@
 
       {% assign sortedRefs = site.data.referencias | sort:'title' %}
       {% for r in sortedRefs %}
-        <div class="refe-stage" id="{{ r.title | url_encode }}">
-          <div class="refe-stage-title stage-title">
-            {{ r.title }}
-          </div>
+        {%unless r.hide %}
+          <div class="refe-stage" id="{{ r.title | url_encode }}">
+            <div class="refe-stage-title stage-title">
+              {{ r.title }}
+            </div>
 
-          <div class="refe-stage-image-text">
-            {% if r.image != '' %}
-              <div class="refe-stage-image" style="background-image: url({{ site.baseurl }}/{{ r.image }})"></div>
-            {% endif %}
-            <div class="refe-stage-text stage-text">
-              {{ r.text }}
-              {% for link in r.links %}
-                <a class="refe-stage-text-link" href="{{ link }}" target="_blank">[{{ forloop.index }}]</a> 
-              {% endfor %}
+            <div class="refe-stage-image-text">
+              {% if r.image != '' %}
+                <div class="refe-stage-image" style="background-image: url({{ site.baseurl }}/{{ r.image }})"></div>
+              {% endif %}
+              <div class="refe-stage-text stage-text">
+                {{ r.text }}
+                {% for link in r.links %}
+                  <a class="refe-stage-text-link" href="{{ link }}" target="_blank">[{{ forloop.index }}]</a> 
+                {% endfor %}
+              </div>
             </div>
           </div>
-        </div>
+        {% endunless %}
       {% endfor %}
 
     </div>
