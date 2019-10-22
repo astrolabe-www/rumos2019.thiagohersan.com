@@ -193,7 +193,7 @@ a {
     flex-direction: row;
 
     .etap-diagram-wrapper {
-      width: 50%;
+      width: 9%;
       max-width: 100px;
       display: flex;
       justify-content: flex-end;
@@ -205,8 +205,15 @@ a {
       }
     }
 
-    .etap-stage {
-      padding: 16px;
+    .etap-content {
+      width: auto;
+      @include media-query(DESKTOP) {
+        width: 95%;
+      }
+
+      .etap-stage {
+        padding: 16px;
+      }
     }
   }
 }
@@ -311,6 +318,40 @@ a {
     color: $TEXT-HIGHLIGHT-COLOR;
     &:visited {
       color: $TEXT-HIGHLIGHT-COLOR;
+    }
+  }
+}
+
+.etap-stage-text + .swipebox-gallery {
+  padding-top: 8px;
+}
+
+.swipebox-gallery {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  .swipebox {
+    margin: 8px 1.666% 0;
+    width: 30%;
+
+    @include media-query(DESKTOP) {
+      width: 15%;
+      margin: 8px 0.666% 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    &.larger-thumbnail {
+      width: 23%;
+      margin: 8px 0.666% 0;
     }
   }
 }
