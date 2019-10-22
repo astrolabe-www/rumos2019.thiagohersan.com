@@ -12,10 +12,11 @@
     - 'https://www.youtube.com/watch?v=N8oWGwcdFmA'
 
 - title: Intra-ação
-  image: ''
-  text: '---'
+  image: 'media/images/references/intraaction.jpg'
+  text: 'Conceito proposto como alternativa/contraponto à "interação". Interação exige sujeitos pré-estabelecidos que então participam em ações entre si. A intra-ação entende agênciamento não como uma propriedade inerente de um sujeito, mas como um dinamismo de forças, no qual todas os corpos estão constantemente trocando, se influenciando e trabalhando inseparavelmente.'
   links:
     - 'https://www.youtube.com/watch?v=v0SnstJoEec'
+    - 'https://newmaterialism.eu/almanac/i/intra-action.html'
 
 - title: Hiper-objeto
   image: 'media/images/references/hybrid.jpg'
@@ -30,11 +31,13 @@
     - 'https://www.laboriacuboniks.net'
 
 - title: Saberes Localizados
-  hide: true
-  image: ''
-  text: '---'
+  image: 'media/images/references/situated.jpg'
+  text: 'Impossibilidade de uma objetividade na qual um aparelho (uma tecnologia, meio ou instrumento usado para medir algo) ou uma pessoa que usa um aparelho não são consideradas parte do processo que permite resultados e medidas. As fronteiras de qualquer objeto ou corpo estudado se materializam em <a href="#Intra-a%C3%A7%C3%A3o">interações sociais</a> e portanto estão em constante deslocamento e redefinição. Essas fronteiras são traçadas por práticas de mapeamento; "objetos" de estudo não existem antes disso.'
   links:
     - 'https://monoskop.org/images/6/6e/Haraway_Donna_1988_Situated_Knowledges_The_Science_Question_in_Feminism_and_the_Privilege_of_Partial_Perspective.pdf'
+    - 'media/docs/haraway-saberes-localizados.pdf'
+    - 'https://archandphil.wordpress.com/2013/10/02/revisualising-worlds-a-manifesto-against-the-tyranny-of-objectivity/'
+    - 'https://intoruins.wordpress.com/2011/02/18/grayson-perry-and-situated-knowledges-map-of-nowhere/'
 
 - title: Sistemas Híbridos
   hide: true
@@ -57,6 +60,7 @@
     - 'https://en.wikipedia.org/wiki/List_of_human-based_units_of_measure'
 
 - title: Perspectivismo
+  hide: true
   image: ''
   text: '---'
   links:
@@ -72,15 +76,18 @@
 - title: Técnica
   hide: true
   image: ''
-  text: '---'
+  text: 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
   links:
     - 'https://revistas.ufpr.br/doispontos/article/download/36861/25407'
+    - 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
 
 - title: Manifesto Ciborgue
+  hide: true
   image: 'media/images/references/cyborg.jpg'
-  text: '---'
+  text: 'cyborg is a metaphor for both our fragmented identities and our technological, bodily, and social reality in the late twentieth century. The cyborg, as a coupling of the technological and the biological, not only marks an “illegitimate offspring of militarism and patriarchal capitalism” (Haraway, 1991, p. 151), but is also rooted in the space-race against the Soviet Union (see, for example, Clynes and Kline, 1995). For Haraway however, the cyborg is much more than its militaristic origin stories imply. As a material-semiotic figure, Haraway’s cyborg illustrates the implosion of fundamental and often oppressive Western dichotomies, such as nature/culture, body/mind, female/male, and animal/human to name but a few. In light of this, Haraway’s cyborg figure is about nothing less than “transgressed boundaries, potent fusions, and dangerous possibilities which progressive people might explore as one part of needed political work” (ibid, p. 154). CRITICAL.'
   links:
     - 'http://www.bibliotecadocomum.org/files/original/91e2f1d4a62538c70e4f1f78598dcca2.pdf'
+    - 'https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf'
 
 - title: Andria
   image: 'media/images/references/invisible_cities.jpg'
@@ -89,13 +96,13 @@
     - 'media/docs/Calvino_Andria.pdf'
 
 - title: Eudóxia
-  image: 'media/images/references/invisible_cities.jpg'
+  image: 'media/images/references/eudoxia.jpg'
   text: 'Outra das cidades invisíveis. Eudóxia tem um mapa no formato de um tapete. Não se sabe qual, mas um dos dois objetos, cidade ou tapete, segue a forma perfeita do universo, enquanto o outro é apenas uma aproximação. O conto aponta algumas conexões e emaranhamentos relevantes entre cidade, mapa, universo e formas de representação.'
   links:
     - 'media/docs/Calvino_Eudoxia.pdf'
 
 - title: Perínzia
-  image: 'media/images/references/invisible_cities.jpg'
+  image: 'media/images/references/perinthia.jpg'
   text: 'Outra cidade invisível de Italo Calvino. Perínzia foi planejada por astrônomos que seguiram o posicionamento das estrelas para ditar as construções terrestres de edifícios, bairros e muralhas. Alinhada a eclipses e outros acontecimentos celestes, a cidade espelharia a harmonia e a razão da natureza, mas após algumas gerações a cidade se encontrada povoada por "monstros". Os monstros de Latour e os <a href="#Manifesto+Ciborgue">ciborgues</a> de Haraway também são resultados de mesclas entre ciência, política, natureza e cultura.'
   links:
     - 'media/docs/Calvino_Perinzia.pdf'
@@ -103,7 +110,7 @@
 - title: Performatividade
   hide: true
   image: ''
-  text: '---'
+  text: 'http://newmaterialism.eu/almanac/p/performativity.html'
   links:
     - 'https://www.uio.no/studier/emner/sv/sai/SOSANT4400/v14/pensumliste/barad_posthumanist-performativity.pdf'
 
