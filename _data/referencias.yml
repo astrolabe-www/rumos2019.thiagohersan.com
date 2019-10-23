@@ -55,9 +55,17 @@
 
 - title: Unidades de Medida
   image: 'media/images/references/medida.jpg'
-  text: '---'
+  text: '<a href="https://pt.wikipedia.org/wiki/Pé_(unidade)" target="_blank">Pés</a>,
+  <a href="https://pt.wikipedia.org/wiki/Polegada" target="_blank">polegadas</a>,
+  <a href="https://pt.wikipedia.org/wiki/Passo_(unidade)" target="_blank">passos</a>,
+  <a href="https://pt.wikipedia.org/wiki/Côvado" target="_blank">côvados</a>,
+  <a href="https://pt.wikipedia.org/wiki/Milha_romana" target="_blank">milhas</a>,
+  <a href="https://pt.wikipedia.org/wiki/Légua#No_Brasil" target="_blank">léguas</a>,
+  <a href="https://pt.wikipedia.org/wiki/Masu#Unidade_de_Medida" target="_blank">massu</a>,
+  <a href="https://pt.wikipedia.org/wiki/Koku" target="_blank">koku</a>... A variedade de unidades de medida baseadas no corpo humano ao longo dos séculos revela o antropocentrismo do ato de medir, e ao mesmo tempo também sugere o quanto medir é uma ação que implica os corpos envolvidos.'
   links:
     - 'https://en.wikipedia.org/wiki/List_of_human-based_units_of_measure'
+    - 'https://pt.wikipedia.org/wiki/Unidades_de_medida_da_Roma_Antiga'
 
 - title: Perspectivismo
   hide: true
@@ -88,6 +96,7 @@
   links:
     - 'http://www.bibliotecadocomum.org/files/original/91e2f1d4a62538c70e4f1f78598dcca2.pdf'
     - 'https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf'
+    - 'http://newmaterialism.eu/almanac/c/cyborg.html'
 
 - title: Andria
   image: 'media/images/references/invisible_cities.jpg'
@@ -132,7 +141,7 @@
 
 - title: Yagi-Uda
   image: 'media/images/references/yagi.jpg'
-  text: '---'
+  text: 'Tipo de antena direcional usada para a transmissão e recepção de sinais de rádio, TV, UHF e Wi-Fi. O elemento ativo da antena geralmente é uma antena dipolo de meia onda, enquanto os outros elementos (parasitas) agem como direcionadores para o sinal sendo transmitido/captado.'
   links:
     - 'https://www.electronics-notes.com/articles/antennas-propagation/yagi-uda-antenna-aerial/basics-overview.php'
     - 'http://www.k7mem.com/Ant_Yagi_VHF.html'
