@@ -213,6 +213,12 @@ a {
 
       .etap-stage {
         padding: 16px;
+
+        .etap-stage-gallery-caption {
+          padding: 4px 8px;
+          font-style: italic;
+          font-weight: normal;
+        }
       }
     }
   }
