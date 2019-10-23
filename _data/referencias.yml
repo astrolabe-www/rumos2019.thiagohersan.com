@@ -24,12 +24,6 @@
   links:
     - 'https://www.upress.umn.edu/book-division/books/hyperobjects'
 
-- title: Manifesto Xenofeminista
-  image: 'media/images/references/xenofeminism.jpg'
-  text: '---'
-  links:
-    - 'https://www.laboriacuboniks.net'
-
 - title: Saberes Localizados
   image: 'media/images/references/situated.jpg'
   text: 'Impossibilidade de uma objetividade na qual um aparelho (uma tecnologia, meio ou instrumento usado para medir algo) ou uma pessoa que usa um aparelho não são consideradas parte do processo que permite resultados e medidas. As fronteiras de qualquer objeto ou corpo estudado se materializam em <a href="#Intra-a%C3%A7%C3%A3o">interações sociais</a> e portanto estão em constante deslocamento e redefinição. Essas fronteiras são traçadas por práticas de mapeamento; "objetos" de estudo não existem antes disso.'
@@ -38,20 +32,6 @@
     - 'media/docs/haraway-saberes-localizados.pdf'
     - 'https://archandphil.wordpress.com/2013/10/02/revisualising-worlds-a-manifesto-against-the-tyranny-of-objectivity/'
     - 'https://intoruins.wordpress.com/2011/02/18/grayson-perry-and-situated-knowledges-map-of-nowhere/'
-
-- title: Sistemas Híbridos
-  hide: true
-  image: 'media/images/references/hybrid.jpg'
-  text: '---'
-  links:
-    - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
-
-- title: Deep Media
-  hide: true
-  image: ''
-  text: '---'
-  links:
-    - 'https://monoskop.org/images/8/8c/Mattern_Shannon_Deep_Mapping_the_Media_City_2015.pdf'
 
 - title: Unidades de Medida
   image: 'media/images/references/medida.jpg'
@@ -66,37 +46,6 @@
   links:
     - 'https://en.wikipedia.org/wiki/List_of_human-based_units_of_measure'
     - 'https://pt.wikipedia.org/wiki/Unidades_de_medida_da_Roma_Antiga'
-
-- title: Perspectivismo
-  hide: true
-  image: ''
-  text: '---'
-  links:
-    - 'http://ea.fflch.usp.br/conceito/perspectivismo-ameríndio'
-
-- title: Individuação
-  hide: true
-  image: ''
-  text: '---'
-  links:
-    - 'http://www.shaviro.com/Blog/?p=471'
-
-- title: Técnica
-  hide: true
-  image: ''
-  text: 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
-  links:
-    - 'https://revistas.ufpr.br/doispontos/article/download/36861/25407'
-    - 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
-
-- title: Manifesto Ciborgue
-  hide: true
-  image: 'media/images/references/cyborg.jpg'
-  text: 'cyborg is a metaphor for both our fragmented identities and our technological, bodily, and social reality in the late twentieth century. The cyborg, as a coupling of the technological and the biological, not only marks an “illegitimate offspring of militarism and patriarchal capitalism” (Haraway, 1991, p. 151), but is also rooted in the space-race against the Soviet Union (see, for example, Clynes and Kline, 1995). For Haraway however, the cyborg is much more than its militaristic origin stories imply. As a material-semiotic figure, Haraway’s cyborg illustrates the implosion of fundamental and often oppressive Western dichotomies, such as nature/culture, body/mind, female/male, and animal/human to name but a few. In light of this, Haraway’s cyborg figure is about nothing less than “transgressed boundaries, potent fusions, and dangerous possibilities which progressive people might explore as one part of needed political work” (ibid, p. 154). CRITICAL.'
-  links:
-    - 'http://www.bibliotecadocomum.org/files/original/91e2f1d4a62538c70e4f1f78598dcca2.pdf'
-    - 'https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf'
-    - 'http://newmaterialism.eu/almanac/c/cyborg.html'
 
 - title: Andria
   image: 'media/images/references/invisible_cities.jpg'
@@ -115,13 +64,6 @@
   text: 'Outra cidade invisível de Italo Calvino. Perínzia foi planejada por astrônomos que seguiram o posicionamento das estrelas para ditar as construções terrestres de edifícios, bairros e muralhas. Alinhada a eclipses e outros acontecimentos celestes, a cidade espelharia a harmonia e a razão da natureza, mas após algumas gerações a cidade se encontrada povoada por "monstros". Os monstros de Latour e os <a href="#Manifesto+Ciborgue">ciborgues</a> de Haraway também são resultados de mesclas entre ciência, política, natureza e cultura.'
   links:
     - 'media/docs/Calvino_Perinzia.pdf'
-
-- title: Performatividade
-  hide: true
-  image: ''
-  text: 'http://newmaterialism.eu/almanac/p/performativity.html'
-  links:
-    - 'https://www.uio.no/studier/emner/sv/sai/SOSANT4400/v14/pensumliste/barad_posthumanist-performativity.pdf'
 
 - title: Cinturão de Clarke
   image: 'media/images/references/clarke.jpg'
@@ -155,3 +97,53 @@
     - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
     - 'http://www.arquivoxbr.com/2017/01/as-linhas-ley/'
     - 'https://ahduvido.com.br/os-misteriosos-portais-que-ligam-a-terra-e-o-sol-e-as-linhas-de-ley/'
+
+- title: Manifesto Xenofeminista
+  image: 'media/images/references/xenofeminism.jpg'
+  text: '---'
+  links:
+    - 'https://www.laboriacuboniks.net'
+
+- title: Manifesto Ciborgue
+  image: 'media/images/references/cyborg.jpg'
+  text: 'Ciborgue é uma metáfora usada para materializar nossa atual condição de identidades fragmentadas e realidades socio-tecno-políticas. Resultado da mistura do biológico com o tecnológico, a ciborgue é uma figura cuja história é híbrida, múltipla e transgressora por natureza. Apontando para um futuro nada distante, o manifesto previu a impossibilidade de manter algumas das divisões fundamentais do pensamento ocidental implicadas nas dicotomias entre natureza/cultura, corpo/mente, animal/humano.'
+  links:
+    - 'http://www.bibliotecadocomum.org/files/original/91e2f1d4a62538c70e4f1f78598dcca2.pdf'
+    - 'https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf'
+    - 'http://newmaterialism.eu/almanac/c/cyborg.html'
+
+- title: Sistemas Híbridos
+  hide: true
+  image: 'media/images/references/hybrid.jpg'
+  text: '---'
+  links:
+    - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
+
+- title: Deep Media
+  hide: true
+  image: ''
+  text: '---'
+  links:
+    - 'https://monoskop.org/images/8/8c/Mattern_Shannon_Deep_Mapping_the_Media_City_2015.pdf'
+
+- title: Perspectivismo
+  hide: true
+  image: ''
+  text: '---'
+  links:
+    - 'http://ea.fflch.usp.br/conceito/perspectivismo-ameríndio'
+
+- title: Técnica
+  hide: true
+  image: ''
+  text: 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
+  links:
+    - 'https://revistas.ufpr.br/doispontos/article/download/36861/25407'
+    - 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
+
+- title: Performatividade
+  hide: true
+  image: ''
+  text: 'http://newmaterialism.eu/almanac/p/performativity.html'
+  links:
+    - 'https://www.uio.no/studier/emner/sv/sai/SOSANT4400/v14/pensumliste/barad_posthumanist-performativity.pdf'
