@@ -4,6 +4,8 @@
   links:
     - 'https://blog.stonehenge-stone-circle.co.uk/2017/01/04/stonehenge-eclipse-predictor/'
     - 'media/docs/stonehenge.pdf'
+    - 'https://pt.wikipedia.org/wiki/Arqueoastronomia'
+    - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
 
 - title: Astrolabe
   image: 'media/images/references/astro_02.jpg'
@@ -90,14 +92,6 @@
     - 'http://bcbj.org/antennae/lte_yagi_diy.htm'
     - 'https://www.changpuak.ch/electronics/yagi_uda_antenna_DL6WU.php'
 
-- title: Linhas de Ley
-  image: 'media/images/references/ley-lines.jpg'
-  text: '---'
-  links:
-    - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
-    - 'http://www.arquivoxbr.com/2017/01/as-linhas-ley/'
-    - 'https://ahduvido.com.br/os-misteriosos-portais-que-ligam-a-terra-e-o-sol-e-as-linhas-de-ley/'
-
 - title: Manifesto Xenofeminista
   image: 'media/images/references/xenofeminism.jpg'
   text: 'Remetendo a conceitos de alienígenas, estrangeiros, excluídos e culturalmente "antinaturais", o xenofeminismo é uma proposta para reimaginar o potencial emancipatório do feminismo em tempos de automação, globalização e revoluções digitais. Propõe destruir o gênero, desmontar a "família", proibir o uso da natureza como garantidora de posições políticas não igualitária, e desnaturalizar as disciplinas da ciência, tecnologia e racionalismo, rejeitando a idéia de que são inerentemente masculinas ou patriarcais.'
@@ -115,12 +109,13 @@
     - 'https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf'
     - 'http://newmaterialism.eu/almanac/c/cyborg.html'
 
-- title: Sistemas Híbridos
-  hide: true
-  image: 'media/images/references/hybrid.jpg'
-  text: '---'
+- title: Linhas de Ley
+  image: 'media/images/references/ley-lines.jpg'
+  text: 'Supostos alinhamentos de locais de significância histórica, política e/ou geográfica espalhados pelo mundo. A idéia de que esses pontos estão conectados por energia mística/cósmica/magnética é controversa e baseada em processos pseudocientíficos. Mesmo assim, ainda é uma referência de uma cartografia imaginária, extensa, expandida e globalizada.'
   links:
-    - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
+    - 'http://www.arquivoxbr.com/2017/01/as-linhas-ley/'
+    - 'https://ahduvido.com.br/os-misteriosos-portais-que-ligam-a-terra-e-o-sol-e-as-linhas-de-ley/'
+    - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
 
 - title: Deep Media
   hide: true
@@ -150,3 +145,10 @@
   text: 'http://newmaterialism.eu/almanac/p/performativity.html'
   links:
     - 'https://www.uio.no/studier/emner/sv/sai/SOSANT4400/v14/pensumliste/barad_posthumanist-performativity.pdf'
+
+- title: Sistemas Híbridos
+  hide: true
+  image: 'media/images/references/hybrid.jpg'
+  text: '---'
+  links:
+    - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
