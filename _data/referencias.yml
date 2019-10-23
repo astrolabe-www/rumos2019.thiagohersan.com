@@ -67,11 +67,12 @@
   links:
     - 'media/docs/Calvino_Perinzia.pdf'
 
-- title: Cinturão de Clarke
+- title: Anel de Clarke
   image: 'media/images/references/clarke.jpg'
   text: 'Nome dado ao grupo de satélites geoestacionários que orbitam a Terra sobre a linha do Ecuador à uma distância de mais ou menos 36.000 km da superfície. A essa altitude os satélites giram em torno da Terra na mesma velocidade em que a Terra gira em torno de si mesma, fazendo com que cada um deles apareça parado do ponto de vista terrestre. Esses satélites geralmente são utilizados para comunicações e observação de regiões específicas.'
   links:
     - 'https://pt.wikipedia.org/wiki/Satélite_geoestacionário'
+    - 'https://pt.wikipedia.org/wiki/Órbita_geoestacionária'
     - 'https://en.wikipedia.org/wiki/List_of_satellites_in_geosynchronous_orbit'
     - 'https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y'
 
