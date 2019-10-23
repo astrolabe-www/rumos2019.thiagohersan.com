@@ -118,12 +118,27 @@
     - 'https://ahduvido.com.br/os-misteriosos-portais-que-ligam-a-terra-e-o-sol-e-as-linhas-de-ley/'
     - 'https://en.wikipedia.org/wiki/Archaeoastronomy'
 
-- title: Deep Media
+- title: Arqueologia de Mídias
+  image: 'media/images/references/deepmedia.jpg'
+  text: 'Estudo do alcance, materialidade e resíduos de mídias e suas infraestruturas. Entende infraestrutura como uma regressão infinita de relacionamentos, que, apesar de seus elementos materiais nunca pode ser reduzida à uma "coisa" porque também inclui objetos intelectuais como padrões de medida, sistemas de classificação e protocolos técnicos. A arqueologia fornece uma maneira de rastrear como tecnologias, arquiteturas, economias e práticas sociais estão conectadas à produção de mídias.'
+  links:
+    - 'https://monoskop.org/images/8/8c/Mattern_Shannon_Deep_Mapping_the_Media_City_2015.pdf'
+    - 'media/docs/parikka-anthrobscene.pdf'
+
+- title: Emaranhamento Temporal
+  hide: true
+  image: ''
+  text: 'Historical layers are not simply written, erased and rewritten; instead there are plenty of points of connection, proximity and action between various pasts. Reject the idea that there are stratified epochs of revolution-based history, where new developments eradicate old systems. Modern things are just the gatherings of achievements from various times and numerous places. Old systems - those buried on lower strata - are very much alive in, and continuing to shape, the contemporary city. Old infrastructure leaks into new-media landscapes.'
+  links:
+    - 'http://nomadways.eu/subjective-mapping-2017-france/'
+
+- title: Subjective Cartography
   hide: true
   image: ''
   text: '---'
   links:
-    - 'https://monoskop.org/images/8/8c/Mattern_Shannon_Deep_Mapping_the_Media_City_2015.pdf'
+    - 'http://nomadways.eu/subjective-mapping-2017-france/'
+
 
 - title: Perspectivismo
   hide: true
