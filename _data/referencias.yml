@@ -124,26 +124,11 @@
   links:
     - 'https://monoskop.org/images/8/8c/Mattern_Shannon_Deep_Mapping_the_Media_City_2015.pdf'
     - 'media/docs/parikka-anthrobscene.pdf'
+    - 'https://www.cjc-online.ca/index.php/journal/article/view/1389/1467'
 
-- title: Emaranhamento Temporal
-  hide: true
-  image: ''
-  text: 'Historical layers are not simply written, erased and rewritten; instead there are plenty of points of connection, proximity and action between various pasts. Reject the idea that there are stratified epochs of revolution-based history, where new developments eradicate old systems. Modern things are just the gatherings of achievements from various times and numerous places. Old systems - those buried on lower strata - are very much alive in, and continuing to shape, the contemporary city. Old infrastructure leaks into new-media landscapes.'
-  links:
-    - 'http://nomadways.eu/subjective-mapping-2017-france/'
-
-- title: Subjective Cartography
-  hide: true
-  image: ''
-  text: '---'
-  links:
-    - 'http://nomadways.eu/subjective-mapping-2017-france/'
-
-
-- title: Perspectivismo
-  hide: true
-  image: ''
-  text: '---'
+- title: Perspectivismo Ameríndio
+  image: 'media/images/references/perspectivism.jpg'
+  text: 'Refere-se à uma sintese de certos aspectos das cosmologias dos povos ameríndios, que tem em comum a crença que o mundo é povoado de muitas espécies de seres humanos e não-humanos dotados de espírito, consciência e cultura. Cada uma dessas espécies se vê como humana, vendo todas as demais como não-humanas, e são percebidas por outras espécies na forma de animais, espíritos ou modalidades de não-humanos. Existe um "xamã" que enxerga um satélite como um humano?'
   links:
     - 'http://ea.fflch.usp.br/conceito/perspectivismo-ameríndio'
 
@@ -168,3 +153,10 @@
   text: '---'
   links:
     - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
+
+- title: Subjective Cartography
+  hide: true
+  image: ''
+  text: '---'
+  links:
+    - 'http://nomadways.eu/subjective-mapping-2017-france/'
