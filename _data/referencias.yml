@@ -132,10 +132,10 @@
   links:
     - 'http://ea.fflch.usp.br/conceito/perspectivismo-ameríndio'
 
-- title: Técnica
-  hide: true
-  image: ''
-  text: 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
+- title: Técnica / Tecnologia / Tecnicidade / Techne
+  image: 'media/images/references/tech.jpg'
+  text: 'Tecnologia e corpo estão inextricavelmente entrelaçados de um modo em que não exista um corpo natural, tecnologicamente intocado. É preciso entender a relação entre tecnologia e o corpo como uma relação de fronteiras indeterminadas. Tecnologias não são mediações, coisas entre corpos, mas sim desdobramentos e conexões, juntas das quais as trocas entre o ser vivo e seu meio acontecem.'
+  tefxt: 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
   links:
     - 'https://revistas.ufpr.br/doispontos/article/download/36861/25407'
     - 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
@@ -153,10 +153,3 @@
   text: '---'
   links:
     - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
-
-- title: Subjective Cartography
-  hide: true
-  image: ''
-  text: '---'
-  links:
-    - 'http://nomadways.eu/subjective-mapping-2017-france/'
