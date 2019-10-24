@@ -77,4 +77,6 @@ window.onload = function() {
     projStageTitles[i].onclick = selectThisStage;
   }
   projStageTitles[0].click();
+
+  document.getElementById('home-loader').style.display = 'none';
 }
