@@ -21,7 +21,7 @@
     - 'https://newmaterialism.eu/almanac/i/intra-action.html'
 
 - title: Hiper-objeto
-  image: 'media/images/references/hybrid.jpg'
+  image: 'media/images/references/hyper.jpg'
   text: 'Conceito usado para analisar a materialidade e complexidade de atuais sistemas "naturais" (aquecimento global, campos petrolíferos do pré-sal, ...) e sistemas "construídos" (internet como vigilância, Machine Learning, ...), que não podem ser compreendidos a partir de uma única ontologia (social, econômica, tecnológica, cultural, filosófica, etc...).'
   links:
     - 'https://www.upress.umn.edu/book-division/books/hyperobjects'
@@ -149,8 +149,7 @@
     - 'http://newmaterialism.eu/almanac/p/performativity.html'
 
 - title: Redes Híbridas
-  hide: true
   image: 'media/images/references/hybrid.jpg'
-  text: '---'
+  text: 'Um híbrido é algo que combina aspectos que tradicionalmente seriam considerados separadamentes em domínios naturais e sociais. As sociedades modernas diferenciam entre natureza e sociedade, enquanto as pré-modernas não fazem essa diferença. Por exemplo, em um contexto científico algo que é chamado de fenômeno natural é, na verdade, uma associação que não seria possível sem o laboratório, o programa de pesquisa e a maneira específica de descrevê-lo posteriormente.'
   links:
     - 'https://monoskop.org/images/e/e4/Latour_Bruno_We_Have_Never_Been_Modern.pdf'
