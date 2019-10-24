@@ -78,5 +78,9 @@ window.onload = function() {
   }
   projStageTitles[0].click();
 
-  document.getElementById('home-loader').style.display = 'none';
+  document.getElementById('home-loader').style.opacity = '0';
+  setTimeout(function() {
+    document.getElementById('home-loader').style.display = 'none';
+  }, 100);
+
 }

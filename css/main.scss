@@ -367,6 +367,8 @@ a {
   width: 64px;
   height: 64px;
   margin: 32px auto;
+  opacity: 1;
+  transition: opacity $TRANSITION-PERIOD linear;
 }
 
 .lds-dual-ring:after {
