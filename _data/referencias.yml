@@ -141,13 +141,14 @@
     - 'http://newmaterialism.eu/almanac/t/technology-technicity-techne.html'
 
 - title: Performatividade
-  hide: true
-  image: ''
-  text: 'http://newmaterialism.eu/almanac/p/performativity.html'
+  image: 'media/images/references/performativ.jpg'
+  text: 'Potencial linguístico que também é uma ação (ou devir) com desdobramentos físico-materialistas; linguagem não é apenas uma maneira de descrever, mas uma força que constrói. Gênero, por exemplo, não é apenas uma categoria que descreve um conjunto de ações e comportamentos, mas sim a maneira como essas ações e comportamentos são descritos e materializados como resultado de uma identidade constantemente redefinida através de atos discursivos e comunicação simbólica.'
   links:
     - 'https://www.uio.no/studier/emner/sv/sai/SOSANT4400/v14/pensumliste/barad_posthumanist-performativity.pdf'
+    - 'https://www.oxfordbibliographies.com/view/document/obo-9780199766567/obo-9780199766567-0114.xml'
+    - 'http://newmaterialism.eu/almanac/p/performativity.html'
 
-- title: Sistemas Híbridos
+- title: Redes Híbridas
   hide: true
   image: 'media/images/references/hybrid.jpg'
   text: '---'
