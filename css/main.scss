@@ -362,6 +362,13 @@ a {
   }
 }
 
+.home-loader-wrapper {
+  width: 100%;
+  border: 1px #eeddff solid;
+  border-bottom: none;
+  border-top: none;
+}
+
 .lds-dual-ring {
   display: block;
   width: 64px;
