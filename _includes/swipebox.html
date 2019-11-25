@@ -1,11 +1,15 @@
 <div class="swipebox-gallery">
   {% for file in site.static_files %}
     {% if file.path contains include.prefix %}
-      <a rel="{{ include.prefix }}"
-         title="{{ include.subtitle }}"
-         href="{{ site.baseurl }}{{ file.path }}" class="swipebox {{ include.subclass }}">
-        <img src="{{ site.baseurl }}{{ file.path }}" alt="{{ include.subtitle }}">
-      </a>
+      {% unless file.path contains "thumb" %}
+        {% assign thumbname = file.name | prepend: "thumb-" %}
+        {% assign thumbpath = file.path | replace: file.name,thumbname %}
+        <a rel="{{ include.prefix }}"
+           title="{{ include.subtitle }}"
+           href="{{ site.baseurl }}{{ file.path }}" class="swipebox {{ include.subclass }}">
+          <img src="{{ site.baseurl }}{{ thumbpath }}" alt="{{ include.subtitle }}">
+        </a>
+      {% endunless %}
     {% endif %}
   {% endfor %}
 </div>
